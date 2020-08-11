@@ -9,7 +9,6 @@ body {
 #wrapper {
     padding-left: 4vw;
     padding-right: 4vw;
-    /* background-color: purple; */
     padding-bottom: 0px;
     display: flex;
     flex-direction: column;
