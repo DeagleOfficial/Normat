@@ -88,3 +88,11 @@ body {
 .col-md-6, .col-sm-12 {
     padding-bottom: 12px;
 }
+
+.form-control {
+    border-radius: 5px 5px 0px 0px;
+}
+label {
+    background: linear-gradient(90deg, #E5AE7A 0%, #FA9393 100%);
+    width: 100%;
+}
