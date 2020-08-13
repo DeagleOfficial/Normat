@@ -11,7 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "index_style.css">
-    <script src = "conversions.js"></script>
 </head>
 <body>
     <div class = "container" id = "wrapper">
@@ -37,33 +36,40 @@
         <div class = "container" align = "center">
             <div class = "row">
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type = "text" class = "form-control" id = "decimal">
+                <input type = "text" class = "form-control" id = "decimal" value = "">
                 <label for = "#decimal"><h4>Decimal</h4></label>
             </span>
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type = "text" class = "form-control" id = "#binary">
+                <input type = "text" class = "form-control" id = "binary" value = "">
                 <label for = "#binary"><h4>Binary</h4></label>
             </span>
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type = "text" class = "form-control" id = "octal">
+                <input type = "text" class = "form-control" id = "octal" value = "">
                 <label for = "#octal"><h4>Octal</h4></label>
             </span>
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type = "text" class = "form-control" id = "hex">
+                <input type = "text" class = "form-control" id = "hex" value = "">
                 <label for = "#hex"><h4>Hexadecimal</h4></label>
             </span>
             </div>
+            <span col-lg-12 col-md-12 col-sm-12 align = "center">
+                <div class = "btn-group" align = "center">
+                    <button style = "width: 200px" type = "button" class = "btn btn-lg" id = "convert">Convert</button>
+                    <button type = "button" class = "btn btn-lg" id = "clear">C</button>
+                </div>
+            </span>
         </div>
     </div>
     <div class = "container-fluid" id = "bottom">
         <div class = "container" id = "footer_info">
             <div class = "row">
-                <a class = "col-sm-12 col-md-6 col-lg-3" href = "#">E-Mail</a>
-                <a class = "col-sm-12 col-md-6 col-lg-3" href = "#">Facebook</a>
-                <a class = "col-sm-12 col-md-6 col-lg-3" href = "#">Contact</a>
-                <a class = "col-sm-12 col-md-6 col-lg-3" href = "#">Github</a>
+                <a class = "col-sm-12 col-md-6 col-lg-3" href = "mailto:supratikofficial1@gmail.com">E-Mail</a>
+                <a class = "col-sm-12 col-md-6 col-lg-3" href = "https://www.facebook.com/profile.php?id=100010161426258">Facebook</a>
+                <a class = "col-sm-12 col-md-6 col-lg-3" href = "tel:8584832114">Contact</a>
+                <a class = "col-sm-12 col-md-6 col-lg-3" href = "https://github.com/DeagleOfficial">Github</a>
             </div>
         </div>
     </div>
+    <script src = "conversions.js"></script>
 </body>
 </html>

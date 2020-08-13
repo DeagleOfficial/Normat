@@ -63,6 +63,11 @@ body {
 
 #get_started {
     background: linear-gradient(90deg, #E6AE7A 0%, #FA9393 100%);
+    transition: 1s ease;
+}
+
+#get_started:hover {
+    background: linear-gradient(90deg, #FA9393 0%,  #E6AE7A 100%);
 }
 
 #bottom {
@@ -95,4 +100,13 @@ body {
 label {
     background: linear-gradient(90deg, #E5AE7A 0%, #FA9393 100%);
     width: 100%;
+}
+
+#convert, #clear {
+    background: #f77d7b;
+    margin-bottom: 20px;
+}
+
+#clear {
+    background-color: #72c487;
 }
