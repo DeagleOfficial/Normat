@@ -102,11 +102,9 @@ label {
     width: 100%;
 }
 
-#convert, #clear {
-    background: #f77d7b;
-    margin-bottom: 20px;
-}
-
 #clear {
-    background-color: #72c487;
+    width: 50%;
+    min-width: 200px;
+    background: #72c487;
+    margin-bottom: 20px;
 }

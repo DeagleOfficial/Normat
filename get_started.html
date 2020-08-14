@@ -36,7 +36,7 @@
         <div class = "container" align = "center">
             <div class = "row">
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type = "text" class = "form-control" id = "decimal" value = "">
+                <input type = "text" class = "form-control" id = "decimal" value = "" oninput="decimal_func()">
                 <label for = "#decimal"><h4>Decimal</h4></label>
             </span>
             <span class = "col-lg-6 col-md-6 col-sm-12 form-group">
@@ -52,12 +52,9 @@
                 <label for = "#hex"><h4>Hexadecimal</h4></label>
             </span>
             </div>
-            <span col-lg-12 col-md-12 col-sm-12 align = "center">
-                <div class = "btn-group" align = "center">
-                    <button style = "width: 200px" type = "button" class = "btn btn-lg" id = "convert">Convert</button>
-                    <button type = "button" class = "btn btn-lg" id = "clear">C</button>
-                </div>
-            </span>
+            <div col-lg-12 col-md-12 col-sm-12 align = "center">
+                    <button type = "button" class = "btn btn-lg" id = "clear">Clear</button>
+            </div>
         </div>
     </div>
     <div class = "container-fluid" id = "bottom">
